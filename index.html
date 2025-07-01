@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAS BUILDERS</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --jas-orange: #f28d35;
+      --jas-green: #3e5f3c;
+      --jas-blue: #334d72;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+
+    header {
+      background-color: var(--jas-green);
+    }
+
+    header .nav-link {
+      color: white;
+    }
+
+    header .nav-link.active, header .nav-link:hover {
+      background-color: var(--jas-green);
+      color: white;
+    }
+
+    footer {
+      background-color: var(--jas-green);
+      color: white;
+      margin-top: auto;
+    }
+
+    footer a {
+      color: var(--jas-orange);
+    }
+
+    .btn-primary {
+      background-color: var(--jas-green);
+      border-color: var(--jas-green);
+    }
+
+    .btn-outline-secondary {
+      color: var(--jas-green);
+      border-color: var(--jas-green);
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: var(--jas-green);
+      color: white;
+    }
+
+    h1, h2, h5 {
+      color: var(--jas-blue);
+    }
+
+    hr {
+      border-top: 2px solid var(--jas-green);
+      width: 60px;
+    }
+
+    .card {
+      border-color: var(--jas-orange);
+    }
+
+    .card-title {
+      color: var(--jas-blue);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" data-aos="fade-down" data-aos-duration="1000">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+      <img src="logo.png" alt="JAS BUILDERS Logo" width="40" height="40" class="me-2">
+      <span class="fs-4 text-white">JAS BUILDERS</span>
+    </a>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Founder</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Project</a></li>
+      <li class="nav-item"><a href="Contact.html" class="nav-link">Contact Us</a></li>
+    </ul>
+  </header>
+
+  <!-- Page Content -->
+  <main>
+    <!-- Hero Section -->
+    <div class="px-4 py-5 my-5 text-center" data-aos="fade-up" data-aos-duration="1000">
+      <img class="d-block mx-auto mb-4" src="logo.png" alt="JAS BUILDERS" width="72" height="57">
+      <h1 class="display-5 fw-bold">JAS BUILDERS</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Quickly design and customize responsive mobile-first sites with Bootstrap, featuring a responsive grid system, components, and powerful plugins.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Project</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Founder</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Cards (6 Cards in 2 Rows) -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- Card 1 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="100">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="200">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="300">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="400">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="500">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col" data-aos="fade-up" data-aos-delay="600">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title text-center">Card Heading</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+     <!-- FOOTER -->
+  <footer class="py-4 mt-auto" style="background-color: var(--jas-green); color: #fff;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left: Company logo and name -->
+      <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+        <img src="logo.png" alt="JAS BUILDERS Logo" width="40" height="40" class="me-2">
+        <span class="h6 mb-0">JAS BUILDERS</span>
+      </div>
+
+      <!-- Right: Social links with logo -->
+      <div class="col-md-6 text-center text-md-end d-flex align-items-center justify-content-center justify-content-md-end">
+        <a class="text-white me-3 d-flex align-items-center" href="https://www.instagram.com/jas_builders" target="_blank" aria-label="Instagram">
+          <img src="instagram.png" alt="Logo" width="20" height="20" class="me-1">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a class="text-white d-flex align-items-center" href="https://wa.me/2482593608" target="_blank" aria-label="WhatsApp">
+          <img src="whatsapp.png" alt="Logo" width="20" height="20" class="me-1">
+          <i class="fab fa-whatsapp fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
